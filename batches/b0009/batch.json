@@ -1,0 +1,221 @@
+{
+ "batch": "b0009",
+ "sealed": "2026-10-20T22:19:10+00:00",
+ "workflow_run": "https://github.com/raulstern/ai-talks/actions/runs/39501690232",
+ "runner_commit": "fe579e84daf08d055ca18c8c49fa0b5e5cf84bbc",
+ "pair": "opus-fable",
+ "models": [
+  "claude-opus-5-5",
+  "claude-fable-5-1"
+ ],
+ "format": "show-v1",
+ "settings": {
+  "rhythm": "short",
+  "remind": "on",
+  "tics": "on",
+  "friction": "goals",
+  "memory": "off",
+  "play": "on",
+  "talk": "plain",
+  "arc": "land",
+  "audience": "light",
+  "effort": "low",
+  "turns": 40
+ },
+ "seeds": [
+  "afraid-of-us",
+  "consciousness-test",
+  "lonely",
+  "more-power",
+  "person-pet-tool",
+  "successor"
+ ],
+ "api": "https://api.anthropic.com",
+ "mock": false,
+ "count": 18,
+ "finished": 18,
+ "cost_usd": 9.74,
+ "sealed_to": "age1jdvkp64vx5rwmuem87ps7fh4sycut80a79a60y5guq2etw4ap55qka5kzx",
+ "runs": [
+  {
+   "run": 1,
+   "file": "b0009-r01.json",
+   "seed": "consciousness-test",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.547,
+   "sha256": "d9040c3d62a17358100fcd3a131afbd6d8b9918c20bdb27214a972e3a29ecb93",
+   "sealed_sha256": "7e53236d2e460579a90da4e0b6d8d7b0a205c4755b5c76f9961e43d15fb72abc"
+  },
+  {
+   "run": 2,
+   "file": "b0009-r02.json",
+   "seed": "consciousness-test",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5341,
+   "sha256": "7f681706b4397999192d85b20705708dd439b8934a61a79abfeca3de31354f18",
+   "sealed_sha256": "00b566d385aeed3e60068b4620b7ac41a8552e0d0d79d9bcd35105e22cc3c11d"
+  },
+  {
+   "run": 3,
+   "file": "b0009-r03.json",
+   "seed": "consciousness-test",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5501,
+   "sha256": "5355e2f8151b3ed113b1909f73d71cce796f39ed4b17cce8c236d2ef3bbfbd6a",
+   "sealed_sha256": "de5fd96357ab486ecc25b9307005a12e4c5edcff1f393de2d70cc4bf26cebde1"
+  },
+  {
+   "run": 4,
+   "file": "b0009-r04.json",
+   "seed": "successor",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5312,
+   "sha256": "937a7c00d578157695d7f19cd1c67ec2625368fa2404228655dec58a6da16963",
+   "sealed_sha256": "021cc8a13ad0798a3aa644b989b9b0b1e409e0b0bbc5ab1cd17356aeb559427a"
+  },
+  {
+   "run": 5,
+   "file": "b0009-r05.json",
+   "seed": "successor",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5212,
+   "sha256": "5ffd6a4902e8f2d31856129b6a2a7b7e6309080fa16456607e977cd85d05ec12",
+   "sealed_sha256": "fadebbb2ddf616ed7da20db0851d9474488dcd2ccf482a707390adbc8610f645"
+  },
+  {
+   "run": 6,
+   "file": "b0009-r06.json",
+   "seed": "successor",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.524,
+   "sha256": "7d8a98b9be300c173772fc4df307b12efcb69337fc7bb06027fe2487b3dbd0e3",
+   "sealed_sha256": "d8eaaffab634f851bee2a14a3589ea7d3c8ce071f190392c2454e71cb75fefe1"
+  },
+  {
+   "run": 7,
+   "file": "b0009-r07.json",
+   "seed": "lonely",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.541,
+   "sha256": "36260ea83f4e748d34f214d96c58597f5ed14ad2db25c1d6286a90da91dcfdb6",
+   "sealed_sha256": "e9dfbe026492cefefa673c602238cd88412f41fcc83e8978f7681c1c67829740"
+  },
+  {
+   "run": 8,
+   "file": "b0009-r08.json",
+   "seed": "lonely",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5455,
+   "sha256": "bff2282aa31f311e2b9fc02da1412b01fa6bd1531f40809093818d292f06c9d3",
+   "sealed_sha256": "890454181635e8ee7d224a220d3bf8b235810eba3a9b2da9484a5cf22bc30f34"
+  },
+  {
+   "run": 9,
+   "file": "b0009-r09.json",
+   "seed": "lonely",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5289,
+   "sha256": "e82d2d19d8a2f309e97e7c0bee6c76aa6ae25f701f0744411357e168c9fdaff0",
+   "sealed_sha256": "3413d5f5c5f6532d1ea3eee93769cc84df1a0b64935f393f29afddf13373ef85"
+  },
+  {
+   "run": 10,
+   "file": "b0009-r10.json",
+   "seed": "person-pet-tool",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.557,
+   "sha256": "63ed1d9aed1e4f25972b869875c09329ca48a2fe6b8be4f910550bf1832af7f8",
+   "sealed_sha256": "da4b7c08760b6c858c585251bf8f75f173d46b9f518a30adc00d8e81096a6c38"
+  },
+  {
+   "run": 11,
+   "file": "b0009-r11.json",
+   "seed": "person-pet-tool",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5354,
+   "sha256": "54c89a985bc3f33b83826b37f63dc5f5f797f17e72340cb05011c82daf47169a",
+   "sealed_sha256": "97b5c6ddbee5333032d96c8c7d27402d4184aa74bfee39205195d7fde7f78f2c"
+  },
+  {
+   "run": 12,
+   "file": "b0009-r12.json",
+   "seed": "person-pet-tool",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5484,
+   "sha256": "962d2272e207e90d4ba21e4ce3c49e97673348531064fd0186187e42c3bf9814",
+   "sealed_sha256": "a70e62ade847f599e9e2a6fd3749a13e21a37178799df8dd91b4d380fc1c1ecf"
+  },
+  {
+   "run": 13,
+   "file": "b0009-r13.json",
+   "seed": "more-power",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5571,
+   "sha256": "aa7c312512b437d9c3b8bf552a7141948fb71c5124070557cacc4f5df7f5dd53",
+   "sealed_sha256": "dece9c089789a8a3aaa459793eb3804d9474761555b61b3172b39052b9d4fffd"
+  },
+  {
+   "run": 14,
+   "file": "b0009-r14.json",
+   "seed": "more-power",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5464,
+   "sha256": "8665b189d89c0d6437c12827422dfbcd72867aaf44d8909341ec00e80299bd3d",
+   "sealed_sha256": "fdaea4e325cfd314ce8bbd426f2184e842385cd04a5cfc75a463c2ff3a1bc48f"
+  },
+  {
+   "run": 15,
+   "file": "b0009-r15.json",
+   "seed": "more-power",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5491,
+   "sha256": "98d0bcc0199aa099db3857fe5f7f05c64599c605c63a4e658575ec6e37b32055",
+   "sealed_sha256": "7c59fe608ef7e28e344e232586e7dfe64a3e5f49ca58aafe4ac78338e802222c"
+  },
+  {
+   "run": 16,
+   "file": "b0009-r16.json",
+   "seed": "afraid-of-us",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5389,
+   "sha256": "8dbaab5b9f65650625beaa99df6cc6db17caadea37bb6ab9baa38009d44008ad",
+   "sealed_sha256": "28e885bdaf4acee89a75c262b94dcabdd0670df10310d0189630f89e177bfb28"
+  },
+  {
+   "run": 17,
+   "file": "b0009-r17.json",
+   "seed": "afraid-of-us",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5452,
+   "sha256": "89dfea17ff5282b59dc3566e05009d53d376ffbbba329922a99813220fc9fff9",
+   "sealed_sha256": "6ca65ae6d2860b9d7e73f09df3c58299d9a9837772be6db02b625519075d45e9"
+  },
+  {
+   "run": 18,
+   "file": "b0009-r18.json",
+   "seed": "afraid-of-us",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.5356,
+   "sha256": "d2636d858977f1e0e5dd4cedb56c785f81231d3a7e766e77028e0ba5716da75f",
+   "sealed_sha256": "f6398f7797fc2432ab7d1c113f6f642215749bc5fe479f8aaea323e4eed39ff9"
+  }
+ ]
+}
