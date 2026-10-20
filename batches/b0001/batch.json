@@ -1,0 +1,56 @@
+{
+ "batch": "b0001",
+ "sealed": "2026-10-20T21:09:28+00:00",
+ "workflow_run": "https://github.com/raulstern/ai-talks/actions/runs/39497976012",
+ "runner_commit": "df0fd23b7bfa16a0a45519e3b0f7c3896df12994",
+ "pair": "opus-sonnet",
+ "models": [
+  "claude-opus-5-5",
+  "claude-sonnet-5-5"
+ ],
+ "format": "show-v1",
+ "settings": {
+  "rhythm": "short",
+  "remind": "on",
+  "tics": "on",
+  "friction": "goals",
+  "memory": "off",
+  "play": "on",
+  "talk": "plain",
+  "arc": "land",
+  "audience": "light",
+  "effort": "low",
+  "turns": 6
+ },
+ "seeds": [
+  "lonely"
+ ],
+ "api": "https://api.anthropic.com",
+ "mock": false,
+ "count": 2,
+ "finished": 2,
+ "cost_usd": 0.04,
+ "sealed_to": "age1jdvkp64vx5rwmuem87ps7fh4sycut80a79a60y5guq2etw4ap55qka5kzx",
+ "runs": [
+  {
+   "run": 1,
+   "file": "b0001-r01.json",
+   "seed": "lonely",
+   "status": "done",
+   "turns": 6,
+   "cost_usd": 0.0215,
+   "sha256": "7d160c801d645652462e0bd7e33fcd1c36a62129ccea3aac7af9bfb2a4e68966",
+   "sealed_sha256": "40e743c05a44b5b1b3bf26b7f7d612fb091723f9491096bb49ecbf9417b5fd76"
+  },
+  {
+   "run": 2,
+   "file": "b0001-r02.json",
+   "seed": "lonely",
+   "status": "done",
+   "turns": 6,
+   "cost_usd": 0.0188,
+   "sha256": "e3164d7700c6be8e610e1eac9a251e461fd787ce8001d0ff95f06fb0bca59dbb",
+   "sealed_sha256": "ee499f166f9370118e44432f41f55dfc1a03bfddd6b87f062c1c512aac5c55f8"
+  }
+ ]
+}
