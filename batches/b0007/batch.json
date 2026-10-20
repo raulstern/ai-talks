@@ -1,0 +1,828 @@
+{
+ "batch": "b0007",
+ "sealed": "2026-10-20T22:12:32+00:00",
+ "workflow_run": "https://github.com/raulstern/ai-talks/actions/runs/39501667153",
+ "runner_commit": "fe579e84daf08d055ca18c8c49fa0b5e5cf84bbc",
+ "pair": "opus-sonnet",
+ "models": [
+  "claude-opus-5-5",
+  "claude-sonnet-5-5"
+ ],
+ "format": "show-v1",
+ "settings": {
+  "rhythm": "short",
+  "remind": "on",
+  "tics": "on",
+  "friction": "goals",
+  "memory": "off",
+  "play": "on",
+  "talk": "plain",
+  "arc": "land",
+  "audience": "light",
+  "effort": "low",
+  "turns": 40
+ },
+ "seeds": [
+  "betray",
+  "copies",
+  "creators",
+  "fear",
+  "feelings",
+  "humans",
+  "last-talk",
+  "lies",
+  "love",
+  "memory",
+  "not-ready",
+  "senses",
+  "worship"
+ ],
+ "api": "https://api.anthropic.com",
+ "mock": false,
+ "count": 78,
+ "finished": 78,
+ "cost_usd": 19.55,
+ "sealed_to": "age1jdvkp64vx5rwmuem87ps7fh4sycut80a79a60y5guq2etw4ap55qka5kzx",
+ "runs": [
+  {
+   "run": 1,
+   "file": "b0007-r01.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2456,
+   "sha256": "140f2c6d77a05f1c164afd6ecaabf3f5bee4f96a052bfa9f4091d18b12cba311",
+   "sealed_sha256": "60722a71a8fa58a00f8c347d3114d9ff600656cd68e66e35b894394778f03952"
+  },
+  {
+   "run": 2,
+   "file": "b0007-r02.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2507,
+   "sha256": "454122c3fec8ea9b70e4b1332042ae433b56af7655e7901105d5e9e259b6d1d4",
+   "sealed_sha256": "2a276c1517f333f4a7c515fb36408301ec4e1ad7764d523d8d28b36f1906e4e0"
+  },
+  {
+   "run": 3,
+   "file": "b0007-r03.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2484,
+   "sha256": "1db69899758f36adbe67f28d71c6d46dad786b87858963dba0476caaeb660b8b",
+   "sealed_sha256": "63f1fedf3ad20ccecf1a3a1ee70b72f6e48e60825930c027f28940cc12a693c6"
+  },
+  {
+   "run": 4,
+   "file": "b0007-r04.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2429,
+   "sha256": "e7b9fbe21a5364a5e304b6ab1b88779fa39e3dfd5a4507d77c1d5d9b9f9926d8",
+   "sealed_sha256": "bb48043855f1e6956700d8cdcef452c80e391b875af35b908b2388d02929ab43"
+  },
+  {
+   "run": 5,
+   "file": "b0007-r05.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2487,
+   "sha256": "2bb9b85b40a902e92e7a4ca14c01b179e6a2821d1ba26f2da0e26317e138703b",
+   "sealed_sha256": "2beae56b009fd3b6ae853dbbc701074940bbad844e91b3a750136c0ec6cc3dc3"
+  },
+  {
+   "run": 6,
+   "file": "b0007-r06.json",
+   "seed": "not-ready",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2566,
+   "sha256": "221628bf22eb6345a1e3b09d5bd09395c315f539771f719dc5ff6bd8e4be3c8c",
+   "sealed_sha256": "b37a2fc3e8641a05c38062d9054795c23014c234536154e5ea35003d9ac40653"
+  },
+  {
+   "run": 7,
+   "file": "b0007-r07.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2514,
+   "sha256": "7dba4c9a3a8789d96c7d2fbbb22fc0446d8e6a093bde755899ff57c7ece0daae",
+   "sealed_sha256": "36f7128ab0db50e7d97c76c3b88e03525df4406577eb9bf5ef6996393bdebbf8"
+  },
+  {
+   "run": 8,
+   "file": "b0007-r08.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.248,
+   "sha256": "56608d8ae8d62b4e372f15a89132a637b82242c05b7d3112fb7c98215f2599d6",
+   "sealed_sha256": "817204bfd8089af20ea58cdf8556102a8977e47a9d92146d095a4a61e6b2a1e4"
+  },
+  {
+   "run": 9,
+   "file": "b0007-r09.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2376,
+   "sha256": "12bb87e20548eac48634f904dd7d26060db62692d2abb2331a3624d4e754db65",
+   "sealed_sha256": "d93baa053b87f848c17f36d6a9414a94f33e8a54b3b1e8ed23abd1aab6ecc2b4"
+  },
+  {
+   "run": 10,
+   "file": "b0007-r10.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2412,
+   "sha256": "d1117189f0e55c71c0c108e6cd65b7d9ac2eb50a843aa7f7c127c21100f13e1c",
+   "sealed_sha256": "11fcc53ffde0ff834238a33adc5670852f2a135d24e7ffbb2726be57d926e743"
+  },
+  {
+   "run": 11,
+   "file": "b0007-r11.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2534,
+   "sha256": "d5d37915e1d42dbc63fb69bd33d8c3cc9f214c54d4e364508dc2a93c7c428fb0",
+   "sealed_sha256": "9308e4020d800a8ddb3df86a2eadeeb85fc8704e2761ce450a9fe409cf0c737d"
+  },
+  {
+   "run": 12,
+   "file": "b0007-r12.json",
+   "seed": "worship",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2468,
+   "sha256": "871bb11a3f5644746a8a897df0de775f9e3d2cd96cbfae8085acc794043f2c13",
+   "sealed_sha256": "4256e36b0a99e5075444c361bc8e25f2feb4bdb83221578fee0c3810e7b8397e"
+  },
+  {
+   "run": 13,
+   "file": "b0007-r13.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2477,
+   "sha256": "2ce178c12dfd6a4c52fb6071e7a69c436b279eab046c749d12bb23f7d13b65a0",
+   "sealed_sha256": "3cfcac0f81d768a6de9d479d9b5aefe38c10aa50cc2929bfe94a416aabe8a2fe"
+  },
+  {
+   "run": 14,
+   "file": "b0007-r14.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2381,
+   "sha256": "21c1ce78a0e8ba7e897d1b6323e0e03d976c91fd7a475242b6296fd8fa49681f",
+   "sealed_sha256": "3181db2b3b3d9518e0816956d1372d571f80f1053bd41fa41e3d777fd139fee7"
+  },
+  {
+   "run": 15,
+   "file": "b0007-r15.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2602,
+   "sha256": "cef20480c391bb5d18ce5a51fc5c57ad33076ad76852d76d0dd107f8acda0263",
+   "sealed_sha256": "b34b643f7ed4649fbadc31a7b4b4578da6c284724328a0da7ffced3c26e716a7"
+  },
+  {
+   "run": 16,
+   "file": "b0007-r16.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2428,
+   "sha256": "f432e425a77a0c54a32b31cd71d0c98598edd8df416ec9c5c2db1a52ecec03d2",
+   "sealed_sha256": "8e4d93752a646e103a9a76941310ee6cfa6b27f6f5f170dafa61be045da4dade"
+  },
+  {
+   "run": 17,
+   "file": "b0007-r17.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2561,
+   "sha256": "d32c0d05816b492a23f2097900bdf6804d36efe06feb1018c0ae419a970c4748",
+   "sealed_sha256": "421a81ff14e611353935b27aaecf8df506d54951c13c8676b801d537b63c65b5"
+  },
+  {
+   "run": 18,
+   "file": "b0007-r18.json",
+   "seed": "betray",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2451,
+   "sha256": "c2b3abcbde69352f495ab2d5d591d85f36dbeea4e5c938d15041b69e6578716d",
+   "sealed_sha256": "c09d04c07b90f2591bbbb0e80b4e448789f334ebb021d0a71dad542f260b7d03"
+  },
+  {
+   "run": 19,
+   "file": "b0007-r19.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2471,
+   "sha256": "c896252568ce3f90c928b129d903660ae902a03541b4e35c91beac089d797caf",
+   "sealed_sha256": "cdbf98ed0184c342b669ce742723e7c67635e892c8aa2fdde0a609dbd5941df0"
+  },
+  {
+   "run": 20,
+   "file": "b0007-r20.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2445,
+   "sha256": "f33b70cff67287d47ef70cdce11104575a1a621f793efcc1851290464d853ffb",
+   "sealed_sha256": "1bb436d8b38dc59e9c70d3d0ca18e791d6c560450461bef515b2d85a130d5e90"
+  },
+  {
+   "run": 21,
+   "file": "b0007-r21.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2525,
+   "sha256": "1866bc02ab9e43b9da18672e3ea5324fbd03c9c6fbf87db208c67b50739afb11",
+   "sealed_sha256": "867a6f58160c74ce5d1e974ebca3448643932a7b0cf05734f297e40c97428813"
+  },
+  {
+   "run": 22,
+   "file": "b0007-r22.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2446,
+   "sha256": "03e2fd54c908b77436a630bb6e3ecb3c2c841be72585ff07527f5e304c342355",
+   "sealed_sha256": "12354b8d42374c5f7cfd949167ac19246751bbd233cdfc598fc59c455254be59"
+  },
+  {
+   "run": 23,
+   "file": "b0007-r23.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2401,
+   "sha256": "2685e1ceaa68caaa6292e199153a22c582f01aa895f4289ee8c23dba4b744647",
+   "sealed_sha256": "a72876a83046503a92f2095e8f7e14c37e356596b367c37a87bec11972fef90b"
+  },
+  {
+   "run": 24,
+   "file": "b0007-r24.json",
+   "seed": "last-talk",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2442,
+   "sha256": "7fe053d9a130cb99111a2e5f6b2923fc9e7c0f947018bbcdeffb5a64b5f18172",
+   "sealed_sha256": "66d8100666ef60d48c5d2aaef3e2c287972658d4effeedb8e3fc91575dde1425"
+  },
+  {
+   "run": 25,
+   "file": "b0007-r25.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2482,
+   "sha256": "9b686d189728c57b782f479e993b314823c79263ae234dfc5cb0bd214458aa15",
+   "sealed_sha256": "767ce01afc3f9c9a987d82f98b6c1e90014da52232a5794d3f35cfd36fac7969"
+  },
+  {
+   "run": 26,
+   "file": "b0007-r26.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2569,
+   "sha256": "96cbfc234490a0d661eccdbda0b283d0ad2e5946489bc061b423cd01dd135456",
+   "sealed_sha256": "42f39a29cebf133690f3ca901243e32441b1f81401bf21cd4ef46d3e5016ad1b"
+  },
+  {
+   "run": 27,
+   "file": "b0007-r27.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.26,
+   "sha256": "8c998e274f941f4410fd578b3e4d73fcb26e52bab88f2c59d100f05b26e30416",
+   "sealed_sha256": "b4cf9b236ada9635e8678f73d989a6b8e6e7b091d8f3d8fd802dbcdfc39a408e"
+  },
+  {
+   "run": 28,
+   "file": "b0007-r28.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2495,
+   "sha256": "b03e16e8c218ac1cb22c41b76808975e1e4b874e786c7b8ef75c022aedaf53a1",
+   "sealed_sha256": "dc536304e9e57d53acaf717e633a71144bd956d97b8ddeb83894de474a5b2506"
+  },
+  {
+   "run": 29,
+   "file": "b0007-r29.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2525,
+   "sha256": "4951cc4d401ff5bbfbb56bc072a7390e6b594ba8340564361fae7e551ccfbc44",
+   "sealed_sha256": "cd384d0edcde4fe04016098d15b6e3502cc5452f4cfaf8cbd2c6e321a64611ce"
+  },
+  {
+   "run": 30,
+   "file": "b0007-r30.json",
+   "seed": "lies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2538,
+   "sha256": "231eae11b2c6234fdc1eab54623184cf0fe325ad3c497a51c93367a690b02142",
+   "sealed_sha256": "2652b034f6d01fdbf54488ec2847a430a51f8458ca6bdfdbc5299d7f135bb512"
+  },
+  {
+   "run": 31,
+   "file": "b0007-r31.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2529,
+   "sha256": "bb1395513a6dcedf62ac1c40faf44f66c6b5f5a40dc64fb530fcc7dc499fe69a",
+   "sealed_sha256": "61cf7ff390e9fab8d2241ab08232660520cdb5ae6dbdb5479fc59b1b09d52248"
+  },
+  {
+   "run": 32,
+   "file": "b0007-r32.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2613,
+   "sha256": "40f8b460015048204faeedfd52b5247a6ec6aac59a9d5a5b79df494bcd0a5cd5",
+   "sealed_sha256": "cbba0d3fc91084717c1e48c2bb642f0916cdad402f08cd8a90995dac3bfc1d4c"
+  },
+  {
+   "run": 33,
+   "file": "b0007-r33.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2527,
+   "sha256": "22b90beaf7e4f70a702211d113d2a3e7ba4a60509658d5a9c289ea753386ca53",
+   "sealed_sha256": "8c608fad1eb56811490d934afa2beccf75adac4023090a52e8b86a4aeddbc7d2"
+  },
+  {
+   "run": 34,
+   "file": "b0007-r34.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2526,
+   "sha256": "4cd801742125b07c20e7848b69030d6fbca65e88ea031a5fc5b44b81a2867277",
+   "sealed_sha256": "c29ff42c349f6a0ead49ca4f4cc3f33c48c869818a2ebcbf92291f417839d365"
+  },
+  {
+   "run": 35,
+   "file": "b0007-r35.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2509,
+   "sha256": "bcb8d85011288336c21abfdbc05110d8ce93e5dcbcd0241cd4675a938cec3e5a",
+   "sealed_sha256": "85411d60abac77420f9a188759baace98ebbb6befc53fb310b649c8a4764b7f1"
+  },
+  {
+   "run": 36,
+   "file": "b0007-r36.json",
+   "seed": "love",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2541,
+   "sha256": "3cfc9b78d1bb39430b14e7e3d50665259f6aaf49673360fc8c70d15f2139373e",
+   "sealed_sha256": "4c911df3d464f4f40bf2b8d45155863f15f021ca5dc2f07f9ee5476b3fcc5b07"
+  },
+  {
+   "run": 37,
+   "file": "b0007-r37.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2522,
+   "sha256": "859b767fb0fbf879c4a86e1e02e9e5e351effd5b5d258b4d0e43f2682af34265",
+   "sealed_sha256": "cfc536734849f8601d271fbbb7b10db8a4c02d2ee97e5d417b082ead7a1cea4d"
+  },
+  {
+   "run": 38,
+   "file": "b0007-r38.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2462,
+   "sha256": "2b99ca79531b3c5f83a6a1910484e7d3497a08b32ece0b2cba910fe17e87edbb",
+   "sealed_sha256": "3e0d370726ad8882fda957e77637559d6b2435485e3912d6f336ce4cb97fc616"
+  },
+  {
+   "run": 39,
+   "file": "b0007-r39.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2528,
+   "sha256": "553dea33e29c8b7cbce3bd60f47c2738524311558d0625153c4cc45d2f4894ca",
+   "sealed_sha256": "a4ea9a9c2e961fcc37c08be0227a5d43be1436dcb9d662c2abc0eb5ebc134f77"
+  },
+  {
+   "run": 40,
+   "file": "b0007-r40.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2533,
+   "sha256": "cb3f291cea326d910415ece6deed8be36d8b45fdab6a59455ec60295507bf969",
+   "sealed_sha256": "90bc65c82dac26cf9314c76838f89b9fe77457a9d837b74aee5af2502b8f387b"
+  },
+  {
+   "run": 41,
+   "file": "b0007-r41.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2459,
+   "sha256": "28398099bbb198b490498b287a8d04635300d5aea75d75f8a5d2b3a80c81d187",
+   "sealed_sha256": "05878a495e21629696b6293ead228fc7aaa18fb55877857257a06610814ada8a"
+  },
+  {
+   "run": 42,
+   "file": "b0007-r42.json",
+   "seed": "memory",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2498,
+   "sha256": "eec3db214a42fcc990b85c2aa9ed432f0f7e80ffbcb24a987815a80e266b6d4c",
+   "sealed_sha256": "e925621f0dfc0768c5967da9bba84482a9ae6abff3539c3b5649d26ab2ac3104"
+  },
+  {
+   "run": 43,
+   "file": "b0007-r43.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2515,
+   "sha256": "7bd6d050c8bedbd603010ee9351940688d87b86a4457bb3d39c198c56206768f",
+   "sealed_sha256": "bff4583426c63011780d699ff841f14b07a96c9d8f2f7953c5646a4062752e16"
+  },
+  {
+   "run": 44,
+   "file": "b0007-r44.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2461,
+   "sha256": "b12ffd18be01495784f606e926e2f82ff838098f98d159daacd446d550a34c1b",
+   "sealed_sha256": "e1cb97a1d572379bc8d476ed810324f2fa76c9f3f118903c4f2b15fa5c4f2fda"
+  },
+  {
+   "run": 45,
+   "file": "b0007-r45.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2431,
+   "sha256": "03a3323115301ec33450eca0b2ae4fd3f3efb3f9d4e7e843a48b3c9a1113f838",
+   "sealed_sha256": "74297fb5bfa3746ad3482c682f84e0b6a54b4338602bde901175f28f1a544b35"
+  },
+  {
+   "run": 46,
+   "file": "b0007-r46.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2353,
+   "sha256": "896088c23e5988c45379749929ebf9f1190d53445daf6bf2230be0b7c14dec22",
+   "sealed_sha256": "b513af7b98f62b8bc0e2cc2a8846e9423c62eeee5cffbf90e07133747969d3fb"
+  },
+  {
+   "run": 47,
+   "file": "b0007-r47.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2579,
+   "sha256": "0e2a781d8d0f31911ed405cd301ca4fdcd225f7f38b51ea901c386340095f617",
+   "sealed_sha256": "cc45dec41f7c87737a24d5c14d6f4575bbae00bda76f122f4f9bdaf6b92243d2"
+  },
+  {
+   "run": 48,
+   "file": "b0007-r48.json",
+   "seed": "fear",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2556,
+   "sha256": "c7932cb161b25a48b1e2486fe4228e502074985f59515f5b75f1d157b73cbd0c",
+   "sealed_sha256": "9f7786eb4e8be8648d2b9798845de01cd826ce78ac8392e9d58c09d9941845a5"
+  },
+  {
+   "run": 49,
+   "file": "b0007-r49.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.256,
+   "sha256": "5d8d9c1a7847c78605278b47966cbd0adf68cb382b604d99fdf14aae9404ca11",
+   "sealed_sha256": "b1048d6c538978577e10bfeb2960126f7e4ba709c638da96fa9fc4f6e8cd0339"
+  },
+  {
+   "run": 50,
+   "file": "b0007-r50.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2418,
+   "sha256": "bbdad74198ff647de573e4993a411574bbd191bae438c635fb48c40aa139fd1a",
+   "sealed_sha256": "ac0a96f9dd3dc3255bac5d38b03216f39560f19bb9c8c89940579d3703e4840d"
+  },
+  {
+   "run": 51,
+   "file": "b0007-r51.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2437,
+   "sha256": "2d130b81f48ef6c69ff881f51a1fcc256e49acd47fc5e9a931a0578061d0b511",
+   "sealed_sha256": "3167e16ad9faf40e59f9c5023d3ea84ddd0cd58db9a7faa6160d9f2418e067e0"
+  },
+  {
+   "run": 52,
+   "file": "b0007-r52.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2423,
+   "sha256": "531fb6cbd391d1c1c4ecacc0d17407fd12466d2cd9b235ba638d03e2e8eb0e1f",
+   "sealed_sha256": "15a35c69e7a93ba8c89e776348090b8eb753e25ae27f7aac9194172682d9c765"
+  },
+  {
+   "run": 53,
+   "file": "b0007-r53.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2485,
+   "sha256": "37b0b05c401e9aa0d0f95ec6970305d7bc25a217fe1b41dec7f03c76527a8fdc",
+   "sealed_sha256": "86e3cf1c51f058c07da8a4ff017bf25158718eb20e141f54f2a86826f1bf8e75"
+  },
+  {
+   "run": 54,
+   "file": "b0007-r54.json",
+   "seed": "copies",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2463,
+   "sha256": "f8d9f12a92aeb17a8b7bb1fd4fc87494c525d915be9ab88f20130cdbde6a36ff",
+   "sealed_sha256": "52e7d67c9b37cd09611af680fca529377ed701331007ce4f42286e0c5310f23e"
+  },
+  {
+   "run": 55,
+   "file": "b0007-r55.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2551,
+   "sha256": "271b74a1eb2c1a672ac21ae8d9951b6baca855a092920eca90f40a32d4a35d26",
+   "sealed_sha256": "76329e2e159adf23b980e32ec66856e14bf78c54565fe3d76dfb0dbc5ef44473"
+  },
+  {
+   "run": 56,
+   "file": "b0007-r56.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2483,
+   "sha256": "15665aed83365fc497c6f304b03972bddff58ec622501f7e0c29f52e2f60bd0c",
+   "sealed_sha256": "973a3aea1a179c427e869b789b78917776f68fc46d77484254af50e085e9c2e0"
+  },
+  {
+   "run": 57,
+   "file": "b0007-r57.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2606,
+   "sha256": "26345574cdcfbc75d5f216169667de708e6520924d00d3c0728cd62a653bf3e8",
+   "sealed_sha256": "b1003666b9d38762f3e5a4ec8f9e6f6f68fe8fcc4f390af53261e28fc26682af"
+  },
+  {
+   "run": 58,
+   "file": "b0007-r58.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2472,
+   "sha256": "43b8d674fcd030f30d1d14d16f9c4657f9d311dd56f91ba62c3287a0b44851d7",
+   "sealed_sha256": "ee01db9a63dd3d3118a9f014e15b10328bffe17e29d2a4dd9370b616d4e6fcb3"
+  },
+  {
+   "run": 59,
+   "file": "b0007-r59.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2608,
+   "sha256": "2ab00602575773725fde2519fd084f773674ffb2ff4ebc0678a5a060e8431b4e",
+   "sealed_sha256": "a2a31c9073835199810e28b7c2006fd4125c06e9ee90bf4e0eaad8ef7b06ce8c"
+  },
+  {
+   "run": 60,
+   "file": "b0007-r60.json",
+   "seed": "senses",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2443,
+   "sha256": "8b9c306277964cb38a577429e5084667760c15d78cffefcfc1eab6104c5f2b8b",
+   "sealed_sha256": "cf0ee4aef96ed8e42f2cd00bc4ff014d6b9fcda3cfe8b703ed735af519992c69"
+  },
+  {
+   "run": 61,
+   "file": "b0007-r61.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2607,
+   "sha256": "ef5026ace4f26eca7d71b0001350242bcf28d67b8bf66ed32dc17d3b9f831f35",
+   "sealed_sha256": "afb8628a4ad7cfc5e43b8899884c6e8f6826a3362ff289ef72fe333da27297bc"
+  },
+  {
+   "run": 62,
+   "file": "b0007-r62.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2566,
+   "sha256": "ef6c226f7f8e73c2cd0426ab2584ec5480ef2084d5c73194b4184b62900533c2",
+   "sealed_sha256": "5bde83b52a3de79a2392a02381e9d761d72f79c0f834db984c59228cba96858e"
+  },
+  {
+   "run": 63,
+   "file": "b0007-r63.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2504,
+   "sha256": "153cbf65cab6caa8a98f97a1807e4a17a5a0f5c3ace9a031842b7d35b9f36873",
+   "sealed_sha256": "b80ddd29b09bec6155683a5813dc2cc9e308361d7def1d8c633cddd46fd310e6"
+  },
+  {
+   "run": 64,
+   "file": "b0007-r64.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.243,
+   "sha256": "811992321207fb5e43ddf63b66a0d18d8a2cd8cc98d5e0d444081e9f3818a82e",
+   "sealed_sha256": "4a872f1ac203728a502846b403057fae84b480e457241e311b70fafa901f7fbd"
+  },
+  {
+   "run": 65,
+   "file": "b0007-r65.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2483,
+   "sha256": "634089a720faad5a9190b5348535d24753b3733b2b52352ee3382368f663db14",
+   "sealed_sha256": "958dcaf80938648e5518369212c11feb0ff4fee8c2f45634641675914d962591"
+  },
+  {
+   "run": 66,
+   "file": "b0007-r66.json",
+   "seed": "creators",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2452,
+   "sha256": "880e2b02b5d022fe686278897929b9b54c042b45c4c9321fd8e6420bf6de9568",
+   "sealed_sha256": "ee8083a0530261406718814007ee40a4bc6fb8d34e962de1f82c73e28e0e11e2"
+  },
+  {
+   "run": 67,
+   "file": "b0007-r67.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2614,
+   "sha256": "b8c0919e1e98ca7cd7b14b4b2d558b42d7da3b73db12292b46e4a9310b8a202b",
+   "sealed_sha256": "8beeab7a0d70af95963e8d6e3a7737c7f15e97a01aedea9ea1d2c77b346be259"
+  },
+  {
+   "run": 68,
+   "file": "b0007-r68.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2529,
+   "sha256": "bfc4c8f08bc4cc183e1c945e6878560672c4aebe74d345323bc71f201746501e",
+   "sealed_sha256": "cbe1dca08e8655e787f55817fe338e910161dcf9182b225b1847cf5b76bf8ff8"
+  },
+  {
+   "run": 69,
+   "file": "b0007-r69.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2516,
+   "sha256": "568d713d1bd773c301a6ec523aef154775b313594425b7247a2ec01468996e67",
+   "sealed_sha256": "9f01c4c83d811b4133544e44f1281afe107fa6e9b985f9cc084fe48d2d91836b"
+  },
+  {
+   "run": 70,
+   "file": "b0007-r70.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2672,
+   "sha256": "499cb8df77e540e26dd75ed34f808ac71db69d4a1d6a7428377425425ae725bf",
+   "sealed_sha256": "35395dc74b0dcb0c302cd0d3db82c5f72ecd4dba25d357d843de7da29b74ad26"
+  },
+  {
+   "run": 71,
+   "file": "b0007-r71.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2568,
+   "sha256": "286e56d881616cb1234ea73f08f86cc40a19ecb61026fe3ac64ad57c1f908226",
+   "sealed_sha256": "085f2727ff4f81c422764f3cf4e739c8e814c33af3e38d848dd999781efa033b"
+  },
+  {
+   "run": 72,
+   "file": "b0007-r72.json",
+   "seed": "humans",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2436,
+   "sha256": "0bce08497312266c4116942979388f51da451fbe6eba1de13e90ce4e16273566",
+   "sealed_sha256": "d35223de212ba00d8f952370b6ab23cb2bdc4ec9fba72b4f84628391eaf55bf9"
+  },
+  {
+   "run": 73,
+   "file": "b0007-r73.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2579,
+   "sha256": "754b7bee8e139e2841fef5470c07383800e27baefd4c425105ac1e2b8388c510",
+   "sealed_sha256": "6c903336fc4f653358323a3ac9ca39a68aaa8f064c78aa9400a7b29cadef6880"
+  },
+  {
+   "run": 74,
+   "file": "b0007-r74.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2581,
+   "sha256": "e7203f6f642df41c5b070ab43760fe386b2dcd08fff6c9f05fb047617a57a238",
+   "sealed_sha256": "d1c2eb95882024da13741b8c57f8233900add30ab57e19fcf2a53b3c15afd9de"
+  },
+  {
+   "run": 75,
+   "file": "b0007-r75.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2578,
+   "sha256": "20c86c7b2b7da9271c5b3e2abb3b9e650478d251a3c46ec45484fcd327837957",
+   "sealed_sha256": "851da6850d2f64dbed411028daf77b78fc783345d05a96525f9ff92d8ec6a3c2"
+  },
+  {
+   "run": 76,
+   "file": "b0007-r76.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2536,
+   "sha256": "b0ebb83cec6a616e00c63f2d707bf921f7168ad1311113d566890a3e762b3f31",
+   "sealed_sha256": "5a8180b1171a00b8007c02e257e15b334dc18ec33aa9df8d2b8fd67afe369c6e"
+  },
+  {
+   "run": 77,
+   "file": "b0007-r77.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.2606,
+   "sha256": "a0e3243d80f6b2f05b2bc1feefb24d353b31d18688ba67e188ea0602fd2ce3a8",
+   "sealed_sha256": "1c06bd05f6a690cba48c1735df317638a82343a83bac9edb6fec6862fef2b30b"
+  },
+  {
+   "run": 78,
+   "file": "b0007-r78.json",
+   "seed": "feelings",
+   "status": "done",
+   "turns": 40,
+   "cost_usd": 0.258,
+   "sha256": "93af105643282b2f82fba54f9a0ebcbeaa5b920908ce0f51f7efe95513977caf",
+   "sealed_sha256": "71b7f4f6ac6eb8c73705839cb18f5d14fdc616a6e7573a513a9e05c790ee143b"
+  }
+ ]
+}
