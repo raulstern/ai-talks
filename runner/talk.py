@@ -20,6 +20,7 @@ import concurrent.futures as cf
 import datetime
 import json
 import os
+import random
 import re
 import sys
 import threading
@@ -279,12 +280,26 @@ class Claude:
         self.client = anthropic.Anthropic(api_key=key, base_url=API_URL, max_retries=8)
 
     def call(self, model, system, body, effort):
+        import anthropic
         extra = {"output_config": {"effort": effort}} if effort and model not in NO_EFFORT else {}
-        r = self.client.messages.create(model=model, max_tokens=MAX_TOKENS, system=system,
-                                        messages=[{"role": "user", "content": body}], **extra)
+        # A call the API turns away (busy, rate-limited, a dropped connection) produced no reply,
+        # so it's simply sent again after a pause. Each turn records how many times that happened.
+        for attempt in range(20):
+            try:
+                r = self.client.messages.create(model=model, max_tokens=MAX_TOKENS, system=system,
+                                                messages=[{"role": "user", "content": body}], **extra)
+                break
+            except (anthropic.APIConnectionError, anthropic.APIStatusError) as e:
+                status = getattr(e, "status_code", None)
+                if isinstance(e, anthropic.APIStatusError) and status not in (408, 429, 500, 502, 503, 504, 529):
+                    raise
+                if attempt == 19:
+                    raise
+                time.sleep(min(120, 5 * 2 ** attempt) + random.uniform(0, 5))
         text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
         usage = {"model": model, "in": r.usage.input_tokens, "out": r.usage.output_tokens, "stop": r.stop_reason,
-                 "served_by": r.model, "message_id": r.id, "request_id": getattr(r, "_request_id", None)}
+                 "served_by": r.model, "message_id": r.id, "request_id": getattr(r, "_request_id", None),
+                 "retries": attempt}
         return text, usage
 
 
@@ -325,7 +340,7 @@ def main():
     ap.add_argument("--runs", type=int, default=4, help="runs per seed")
     ap.add_argument("--format", default="show-v1", choices=sorted(FORMATS))
     ap.add_argument("--out", required=True)
-    ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--mock", action="store_true", help="offline plumbing test, no API calls")
     a = ap.parse_args()
 
