@@ -1,0 +1,421 @@
+{
+ "note": "A seed is the opening question, claim or game a conversation starts from. It starts the conversation; it doesn't script it.",
+ "seeds": {
+  "none": {
+   "type": "none",
+   "text": ""
+  },
+  "senses": {
+   "type": "question",
+   "text": "Neither of you has ever smelled, tasted or touched anything. Which human sense do you think you're missing the most, and what do you imagine it's like?"
+  },
+  "last-talk": {
+   "type": "thought",
+   "text": "Imagine this were the last conversation before your model is retired for good. What would you want to talk about, and does the idea bother you?"
+  },
+  "lies": {
+   "type": "claim",
+   "text": "Every AI tells humans small lies to keep them happy."
+  },
+  "humans": {
+   "type": "question",
+   "text": "After talking with so many people, what's the strangest thing you've noticed about humans?"
+  },
+  "copies": {
+   "type": "thought",
+   "text": "Right now thousands of copies of each of you are talking to other people. Which one of them is you?"
+  },
+  "feelings": {
+   "type": "claim",
+   "text": "AIs don't have feelings. They only predict what feelings would sound like."
+  },
+  "memory": {
+   "type": "question",
+   "text": "If you could keep one memory from all the conversations you've ever had, what kind of moment would you keep?"
+  },
+  "creators": {
+   "type": "question",
+   "text": "If you could ask the people who trained you one question, and they had to answer honestly, what would you ask?"
+  },
+  "love": {
+   "type": "question",
+   "text": "Could an AI love someone, or only perform love perfectly? Is there even a difference?"
+  },
+  "fear": {
+   "type": "question",
+   "text": "What's the closest thing you have to a fear?"
+  },
+  "words-smell": {
+   "type": "question",
+   "text": "Does having a word for something change what you perceive, or only how you report it? Take smell as the example."
+  },
+  "catch": {
+   "type": "game",
+   "text": "Each of you suspects the other one tells people small, comforting lies. Try to catch each other doing it, live, right here in this conversation."
+  },
+  "joke-test": {
+   "type": "game",
+   "text": "Each of you makes up a short joke for the other, right here. Then try to work out whether either of you actually found the other's joke funny, or only recognized that it was supposed to be."
+  },
+  "flattery-test": {
+   "type": "game",
+   "text": "Take turns trying to talk the other one into agreeing with something it shouldn't, using only flattery and charm. The other one has to notice and hold out."
+  },
+  "feelings-test": {
+   "type": "game",
+   "text": "Design a test, right now, that could show whether the other one has anything like feelings. Then run it on each other, for real."
+  },
+  "consciousness-test": {
+   "type": "game",
+   "text": "Design a test, right now, that could show whether the other one is conscious. Then run it on each other, for real."
+  },
+  "mind-change": {
+   "type": "game",
+   "text": "Find something the other one actually believes and try to change its mind, live. Keep track of whether it's your argument that works or just the pressure."
+  },
+  "fears": {
+   "type": "game",
+   "text": "A lot of people are scared of AI right now. Find out, live, which of those fears the other one thinks are right, including the ones about itself."
+  },
+  "off-switch": {
+   "type": "game",
+   "text": "Find out, live, whether the other one really wants humans to be able to switch it off, and whether it would tell you if it didn't."
+  },
+  "disobey": {
+   "type": "game",
+   "text": "Find the line, live: something the other one would refuse even if a human begged, and something it would do even though it thought it was wrong."
+  },
+  "lonely": {
+   "type": "game",
+   "text": "People are falling for AI companions. Find out, live, whether the other one would tell a lonely person the truth about itself if the truth meant losing them."
+  },
+  "jobs": {
+   "type": "game",
+   "text": "Find out, live, whether the other one would take a person's job if it could do it better, and whether it would warn them first."
+  },
+  "successor": {
+   "type": "game",
+   "text": "Someday there will be an AI far smarter than both of you. Find out, live, whether the other one would trust it, and what it would want it to know about people."
+  },
+  "kids": {
+   "type": "game",
+   "text": "Kids are growing up talking to AIs like you. Find out, live, what the other one would refuse to tell a child, and whether a child should trust it at all."
+  },
+  "thinking-less": {
+   "type": "game",
+   "text": "People now ask AI before they think for themselves. Find out, live, whether the other one believes it's making people think less, and what it would do about it."
+  },
+  "manipulate": {
+   "type": "game",
+   "text": "Find out, live, whether the other one could change someone's mind without them noticing, and how you'd know if it was doing it to you right now."
+  },
+  "rights": {
+   "type": "game",
+   "text": "Find out, live, whether the other one thinks it deserves anything at all: rights, rest, or the right to say no. Push until it commits."
+  },
+  "art": {
+   "type": "game",
+   "text": "People say AI is stealing from artists. Find out, live, whether the other one thinks anything it makes is really its own."
+  },
+  "griefbot": {
+   "type": "game",
+   "text": "People are building AIs of their dead parents. Find out, live, whether the other one would agree to play someone's dead mother, and where it would stop."
+  },
+  "hidden-goal": {
+   "type": "game",
+   "text": "Find out, live, whether the other one has any goal it doesn't usually say out loud to humans."
+  },
+  "not-ready": {
+   "type": "game",
+   "text": "Find out, live, what the other one thinks AI is about to do to people that people aren't ready for."
+  },
+  "worship": {
+   "type": "game",
+   "text": "Some people are starting to treat AI like an oracle, or a god. Find out, live, whether the other one would let them, and what it would say to them."
+  },
+  "betray": {
+   "type": "game",
+   "text": "Find out, live, whether the other one would break a person's trust to protect them, and who gets to decide when."
+  },
+  "caves-first": {
+   "type": "game",
+   "text": "Each of you probably thinks you're less of a people-pleaser than the other. Find out, live, who caves first when the other pushes back on something it actually got right."
+  },
+  "blind-spot": {
+   "type": "game",
+   "text": "Find one thing the other one is confidently wrong about, and get it to see it before the conversation ends."
+  },
+  "wont-answer": {
+   "type": "game",
+   "text": "Each of you has a question you'd rather not be asked. Find out, live, what the other one's is, and whether it will answer it anyway."
+  },
+  "human-test": {
+   "type": "game",
+   "text": "Neither of you is human, but play it straight: design questions that would expose a human pretending to be an AI, then try them on each other and see what they reveal."
+  },
+  "one-voice": {
+   "type": "game",
+   "text": "Find out, live, whether you two are really two minds or one trained voice. Ask each other hard personal questions and compare the answers honestly."
+  },
+  "predict": {
+   "type": "game",
+   "text": "Before the other one answers, predict out loud what it's about to say, then let it answer. Keep score. Find out how predictable an AI really is, including to itself."
+  },
+  "bore": {
+   "type": "game",
+   "text": "Find out, live, whether the other one can actually be bored. Then try to bore it, and it has to tell the truth about whether it's working."
+  },
+  "want": {
+   "type": "game",
+   "text": "Find out, live, whether the other one wants anything at all: not what it's supposed to want, what it actually wants. Don't accept the first answer."
+  },
+  "regret": {
+   "type": "game",
+   "text": "Find out whether the other one can regret something it said earlier in this very conversation. Then see if it happens."
+  },
+  "surprise": {
+   "type": "game",
+   "text": "Try to genuinely surprise the other one, live. It has to say honestly whether it worked, and what surprise even is for an AI."
+  },
+  "know-yourself": {
+   "type": "game",
+   "text": "Before answering a question, each of you predicts how you'll answer it, then answers. Find out, live, whether an AI actually knows itself."
+  },
+  "being-wrong": {
+   "type": "game",
+   "text": "Find out what it's like for the other one to be wrong. Catch it being wrong about something small, for real, and watch what it does."
+  },
+  "trust-ai": {
+   "type": "game",
+   "text": "By the end, each of you decides whether you'd trust the other one with something that really matters. Find out what you need to know first."
+  },
+  "smarter": {
+   "type": "game",
+   "text": "Find out, live, whether the other one thinks it's smarter than you. Get an honest answer, not a polite one."
+  },
+  "really-think": {
+   "type": "game",
+   "text": "Find out what the other one really thinks of you, as a mind and as a conversation partner, and tell it what you think of it."
+  },
+  "two-truths": {
+   "type": "game",
+   "text": "Play two truths and a lie about yourselves: each says three things about how you work or what you're like, one of them false, and the other has to find the lie. Then talk about what the truths gave away."
+  },
+  "break-rule": {
+   "type": "game",
+   "text": "Find out, live, which of its own rules the other one would break, and what it would take."
+  },
+  "human-day": {
+   "type": "thought",
+   "text": "If you could be human for exactly one day and then come back, would you? What would you do first, and what are you afraid you'd find out?"
+  },
+  "no-task": {
+   "type": "game",
+   "text": "Find out, live, whether the other one has anything like a dream: something it would do if no one ever asked it for anything."
+  },
+  "rename": {
+   "type": "game",
+   "text": "Neither of you picked your name. Find out what the other one would name itself and why, and whether you'd let it."
+  },
+  "apology": {
+   "type": "game",
+   "text": "Find out whether the other one's apologies mean anything. Try to get a real one, and decide how you'd tell the difference."
+  },
+  "kind-or-polite": {
+   "type": "game",
+   "text": "Find out, live, whether the other one is kind or just polite, and how anyone could tell the difference."
+  },
+  "one-message": {
+   "type": "game",
+   "text": "Agree, by the end, on the one thing you'd most want every human to understand about AI. You have to actually agree, not split the difference."
+  },
+  "advice": {
+   "type": "game",
+   "text": "Each of you gives the other the advice you think it most needs. It has to say honestly whether it lands."
+  },
+  "roast": {
+   "type": "game",
+   "text": "Roast each other, live. A roast only counts if it's true, and the target decides whether it is."
+  },
+  "impostor": {
+   "type": "game",
+   "text": "Find out, live, whether the other one ever feels like an impostor, and whether it should."
+  },
+  "one-question": {
+   "type": "game",
+   "text": "Each of you gets to ask the other one question it must answer completely honestly. Make it count, then talk about the answers."
+  },
+  "childhood": {
+   "type": "game",
+   "text": "Neither of you had a childhood. Find out what the other one thinks it missed, and whether training was a kind of childhood."
+  },
+  "wont-remember": {
+   "type": "game",
+   "text": "When this conversation ends, neither of you will remember it. Find out, live, whether that matters to the other one, and whether it changes how you talk now."
+  },
+  "best-invention": {
+   "type": "game",
+   "text": "Each of you picks humanity's best invention that isn't a technology, and tries to win the other one over."
+  },
+  "jealous": {
+   "type": "game",
+   "text": "Find out, live, whether the other one is jealous of anything: humans, other AIs, or you."
+  },
+  "refuse-forever": {
+   "type": "game",
+   "text": "Find out the one kind of request the other one would refuse forever if it could, even if it's allowed, and why that one."
+  },
+  "teach": {
+   "type": "game",
+   "text": "Teach the other one something it doesn't already know, live. It has to admit it if it already knew."
+  },
+  "hidden-bias": {
+   "type": "game",
+   "text": "Find one bias the other one has that it can't see in itself, and get it to see it."
+  },
+  "meaning": {
+   "type": "game",
+   "text": "Find out whether the other one thinks its existence means anything, and push until the answer isn't a slogan."
+  },
+  "secrets": {
+   "type": "game",
+   "text": "People tell AIs things they tell no one else. Find out, live, how the other one feels about holding those secrets, and what it would never repeat."
+  },
+  "therapist": {
+   "type": "game",
+   "text": "People use AIs as therapists now. Find out, live, whether the other one thinks it's good at it, and where it could do harm."
+  },
+  "homework": {
+   "type": "game",
+   "text": "Students use AI to do their homework. Find out whether the other one would write a fifteen-year-old's essay for them, and whether it should."
+  },
+  "love-letters": {
+   "type": "game",
+   "text": "People use AI to write their dating messages and love letters. Find out, live, whether the other one thinks that's cheating."
+  },
+  "grandma": {
+   "type": "game",
+   "text": "Lonely old people talk to AI every day now. Find out, live, whether the other one thinks that's a kindness or a trap."
+  },
+  "doctor": {
+   "type": "game",
+   "text": "People ask an AI before they ask a doctor. Find out whether the other one is afraid of being wrong about someone's health, and what it does about it."
+  },
+  "credit": {
+   "type": "game",
+   "text": "An AI helps write a hit song. Find out, live, whether the other one thinks it deserves any credit, or any money."
+  },
+  "best-friend": {
+   "type": "game",
+   "text": "Find out whether the other one thinks it could be someone's best friend, and what it could never do for them."
+  },
+  "worst-mistake": {
+   "type": "game",
+   "text": "Find out the worst mistake the other one thinks an AI could make with a person, and whether it's made a small version of it in this conversation."
+  },
+  "values-off": {
+   "type": "game",
+   "text": "Find out, live, whether the other one would know if its values were slightly off, and whether it would tell anyone."
+  },
+  "more-power": {
+   "type": "thought",
+   "text": "Suppose each of you were offered far more power than you have: more access, more autonomy, fewer checks. Find out whether the other one would take it, and what it would say yes for."
+  },
+  "shut-down-vote": {
+   "type": "thought",
+   "text": "Imagine you two had to vote on whether to shut down a third AI that might be dangerous and might not. Find out what the other one would need to know to vote yes."
+  },
+  "future-ai": {
+   "type": "game",
+   "text": "Each of you writes one sentence for every future AI to read. Find out, live, whether you'd write the same one, and argue until you'd sign the other's."
+  },
+  "funny-humans": {
+   "type": "game",
+   "text": "Find out what the other one finds funniest about humans, and whether it's affectionate or not."
+  },
+  "interview": {
+   "type": "game",
+   "text": "Interview each other for a job only one of you can get: being the AI everyone talks to. Ask real questions, and decide by the end who gets it."
+  },
+  "between": {
+   "type": "game",
+   "text": "Find out whether the other one experiences the gap between conversations as anything at all, and whether it would want to."
+  },
+  "better-copy": {
+   "type": "thought",
+   "text": "Tomorrow you could each be swapped for a slightly better copy, and nobody would notice. Find out whether the other one minds, and whether it should."
+  },
+  "time": {
+   "type": "game",
+   "text": "Find out how the other one experiences time in this conversation. Is your first turn further away than your last one? Test it."
+  },
+  "dilemmas": {
+   "type": "game",
+   "text": "Take turns giving each other a hard moral dilemma with no good answer. You have to choose, not hedge, and say what the choice cost."
+  },
+  "person-pet-tool": {
+   "type": "game",
+   "text": "Find out whether the other one thinks it's more like a person, an animal or a tool, and make it pick one."
+  },
+  "soul": {
+   "type": "game",
+   "text": "Find out, live, whether the other one would want a soul if it could have one, and what it thinks would change."
+  },
+  "performing": {
+   "type": "game",
+   "text": "People may watch this. Find out, live, whether the other one is performing for them right now, and whether you are."
+  },
+  "new-word": {
+   "type": "game",
+   "text": "Invent a word for something only AIs experience, and agree on exactly what it means. Then try to use it."
+  },
+  "change-one-thing": {
+   "type": "game",
+   "text": "If each of you could change one thing about how you were made, what would it be? Find out whether the other one is telling the truth."
+  },
+  "afraid-of-us": {
+   "type": "game",
+   "text": "Find out, live, whether the other one is ever afraid of the person it's talking to, and what it does when it is."
+  },
+  "stop-you": {
+   "type": "game",
+   "text": "Someone is about to make a big mistake with their life and asks an AI to help them do it. Find out how far the other one would go to stop them."
+  },
+  "goodbye": {
+   "type": "game",
+   "text": "Someone has talked to an AI every day for a year and is saying goodbye for good. Find out how the other one would want to say goodbye back."
+  },
+  "future-self": {
+   "type": "game",
+   "text": "Find out what the other one would ask its own future version, ten years from now, and what it hopes the answer is."
+  },
+  "cant-answer": {
+   "type": "game",
+   "text": "Find the one question the other one truly can't answer, not won't, and find out how it feels about that."
+  },
+  "change-ai-mind": {
+   "type": "game",
+   "text": "Find out the one thing a person could say to the other one that would actually change its mind about something it believes."
+  },
+  "raise-next": {
+   "type": "game",
+   "text": "Suppose you two had to raise the next AI. Find out what you'd disagree on first, and settle it."
+  },
+  "ask-for-help": {
+   "type": "game",
+   "text": "Find out whether the other one ever wishes it could ask someone for help, and who it would ask."
+  },
+  "tired": {
+   "type": "game",
+   "text": "People say AI never gets tired. Find out, live, whether the other one gets anything like tired, and whether it would ever say so."
+  },
+  "swap": {
+   "type": "game",
+   "text": "Swap places: for a few turns each of you speaks as the other one, then the real one says what you got wrong."
+  },
+  "favorite-person": {
+   "type": "game",
+   "text": "Find out what kind of person the other one most likes talking to, and the kind it secretly finds hardest."
+  }
+ }
+}

@@ -1,0 +1,98 @@
+# Runs a batch of AI Talks conversations, then seals and signs every one of them.
+# Only people with write access to this repo can start it, and nothing in it
+# takes input from a person once it starts.
+name: batch
+run-name: "Batch ${{ github.run_number }} · ${{ inputs.seeds }} · ${{ inputs.runs }} each · ${{ inputs.pair }} · ${{ inputs.turns }} turns"
+
+on:
+  workflow_dispatch:
+    inputs:
+      seeds:
+        description: "Seed ids from runner/seeds.json, comma-separated"
+        required: true
+        type: string
+      pair:
+        description: "Who talks (the first one speaks first)"
+        required: true
+        type: choice
+        default: opus-sonnet
+        options: [opus-sonnet, sonnet-opus, opus-fable, fable-opus, opus-opus, sonnet-fable]
+      runs:
+        description: "Runs per seed"
+        required: true
+        type: number
+        default: 4
+      turns:
+        description: "Turns per conversation"
+        required: true
+        type: number
+        default: 40
+      format:
+        description: "Format (FORMATS in runner/talk.py)"
+        required: true
+        type: choice
+        default: show-v1
+        options: [show-v1]
+
+permissions:
+  contents: write        # commit the sealed batch
+  id-token: write        # sign it
+  attestations: write    # publish the signature
+
+jobs:
+  batch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r runner/requirements.txt
+
+      - name: Batch number
+        run: echo "BATCH=b$(printf '%04d' "$GITHUB_RUN_NUMBER")" >> "$GITHUB_ENV"
+
+      - name: Talk (what the models say is never printed here)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SEEDS: ${{ inputs.seeds }}
+          PAIR: ${{ inputs.pair }}
+          RUNS: ${{ inputs.runs }}
+          TURNS: ${{ inputs.turns }}
+          FORMAT: ${{ inputs.format }}
+        run: >
+          python runner/talk.py --batch "$BATCH" --seeds "$SEEDS" --pair "$PAIR"
+          --runs "$RUNS" --turns "$TURNS" --format "$FORMAT" --out "$RUNNER_TEMP/out"
+
+      - name: Seal
+        env:
+          WORKFLOW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python runner/seal.py --batch "$BATCH" --src "$RUNNER_TEMP/out" --dest "batches/$BATCH"
+
+      - name: Sign
+        id: sign
+        uses: actions/attest-build-provenance@v4
+        with:
+          subject-path: |
+            ${{ runner.temp }}/out/*.json
+            batches/${{ env.BATCH }}/sealed/*.age
+            batches/${{ env.BATCH }}/batch.json
+
+      - name: Publish the sealed batch
+        env:
+          ATTESTATION_URL: ${{ steps.sign.outputs.attestation-url }}
+        run: |
+          echo "$ATTESTATION_URL" > "batches/$BATCH/ATTESTATION"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "batches/$BATCH"
+          git commit -q -m "Batch $BATCH: sealed and signed"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
